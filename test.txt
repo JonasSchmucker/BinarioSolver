@@ -1,0 +1,660 @@
+var_0_0
+var_1_3
+var_2_4
+var_3_3
+var_4_5
+Not(var_0_1)
+Not(var_1_1)
+Not(var_2_2)
+Not(var_2_3)
+Not(var_3_1)
+Not(var_4_2)
+Not(var_4_3)
+Not(And(var_0_0, var_0_1, var_1_1, var_1_0))
+Or(var_0_0, var_0_1, var_1_1, var_1_0)
+Not(And(var_1_0, var_1_1, var_2_1, var_2_0))
+Or(var_1_0, var_1_1, var_2_1, var_2_0)
+Not(And(var_2_0, var_2_1, var_3_1, var_3_0))
+Or(var_2_0, var_2_1, var_3_1, var_3_0)
+Not(And(var_3_0, var_3_1, var_4_1, var_4_0))
+Or(var_3_0, var_3_1, var_4_1, var_4_0)
+Not(And(var_4_0, var_4_1, var_5_1, var_5_0))
+Or(var_4_0, var_4_1, var_5_1, var_5_0)
+Not(And(var_0_1, var_0_2, var_1_2, var_1_1))
+Or(var_0_1, var_0_2, var_1_2, var_1_1)
+Not(And(var_1_1, var_1_2, var_2_2, var_2_1))
+Or(var_1_1, var_1_2, var_2_2, var_2_1)
+Not(And(var_2_1, var_2_2, var_3_2, var_3_1))
+Or(var_2_1, var_2_2, var_3_2, var_3_1)
+Not(And(var_3_1, var_3_2, var_4_2, var_4_1))
+Or(var_3_1, var_3_2, var_4_2, var_4_1)
+Not(And(var_4_1, var_4_2, var_5_2, var_5_1))
+Or(var_4_1, var_4_2, var_5_2, var_5_1)
+Not(And(var_0_2, var_0_3, var_1_3, var_1_2))
+Or(var_0_2, var_0_3, var_1_3, var_1_2)
+Not(And(var_1_2, var_1_3, var_2_3, var_2_2))
+Or(var_1_2, var_1_3, var_2_3, var_2_2)
+Not(And(var_2_2, var_2_3, var_3_3, var_3_2))
+Or(var_2_2, var_2_3, var_3_3, var_3_2)
+Not(And(var_3_2, var_3_3, var_4_3, var_4_2))
+Or(var_3_2, var_3_3, var_4_3, var_4_2)
+Not(And(var_4_2, var_4_3, var_5_3, var_5_2))
+Or(var_4_2, var_4_3, var_5_3, var_5_2)
+Not(And(var_0_3, var_0_4, var_1_4, var_1_3))
+Or(var_0_3, var_0_4, var_1_4, var_1_3)
+Not(And(var_1_3, var_1_4, var_2_4, var_2_3))
+Or(var_1_3, var_1_4, var_2_4, var_2_3)
+Not(And(var_2_3, var_2_4, var_3_4, var_3_3))
+Or(var_2_3, var_2_4, var_3_4, var_3_3)
+Not(And(var_3_3, var_3_4, var_4_4, var_4_3))
+Or(var_3_3, var_3_4, var_4_4, var_4_3)
+Not(And(var_4_3, var_4_4, var_5_4, var_5_3))
+Or(var_4_3, var_4_4, var_5_4, var_5_3)
+Not(And(var_0_4, var_0_5, var_1_5, var_1_4))
+Or(var_0_4, var_0_5, var_1_5, var_1_4)
+Not(And(var_1_4, var_1_5, var_2_5, var_2_4))
+Or(var_1_4, var_1_5, var_2_5, var_2_4)
+Not(And(var_2_4, var_2_5, var_3_5, var_3_4))
+Or(var_2_4, var_2_5, var_3_5, var_3_4)
+Not(And(var_3_4, var_3_5, var_4_5, var_4_4))
+Or(var_3_4, var_3_5, var_4_5, var_4_4)
+Not(And(var_4_4, var_4_5, var_5_5, var_5_4))
+Or(var_4_4, var_4_5, var_5_5, var_5_4)
+Or(And(var_0_0, If(var_1_0, 1, 0) + If(var_0_1, 1, 0) == 1),
+   And(var_0_0, If(var_1_0, 1, 0) + If(var_0_1, 1, 0) == 2),
+   Not(var_0_0))
+Or(And(var_1_0,
+       If(var_0_0, 1, 0) +
+       If(var_2_0, 1, 0) +
+       If(var_1_1, 1, 0) ==
+       1),
+   And(var_1_0,
+       If(var_0_0, 1, 0) +
+       If(var_2_0, 1, 0) +
+       If(var_1_1, 1, 0) ==
+       2),
+   Not(var_1_0))
+Or(And(var_2_0,
+       If(var_1_0, 1, 0) +
+       If(var_3_0, 1, 0) +
+       If(var_2_1, 1, 0) ==
+       1),
+   And(var_2_0,
+       If(var_1_0, 1, 0) +
+       If(var_3_0, 1, 0) +
+       If(var_2_1, 1, 0) ==
+       2),
+   Not(var_2_0))
+Or(And(var_3_0,
+       If(var_2_0, 1, 0) +
+       If(var_4_0, 1, 0) +
+       If(var_3_1, 1, 0) ==
+       1),
+   And(var_3_0,
+       If(var_2_0, 1, 0) +
+       If(var_4_0, 1, 0) +
+       If(var_3_1, 1, 0) ==
+       2),
+   Not(var_3_0))
+Or(And(var_4_0,
+       If(var_3_0, 1, 0) +
+       If(var_5_0, 1, 0) +
+       If(var_4_1, 1, 0) ==
+       1),
+   And(var_4_0,
+       If(var_3_0, 1, 0) +
+       If(var_5_0, 1, 0) +
+       If(var_4_1, 1, 0) ==
+       2),
+   Not(var_4_0))
+Or(And(var_5_0, If(var_4_0, 1, 0) + If(var_5_1, 1, 0) == 1),
+   And(var_5_0, If(var_4_0, 1, 0) + If(var_5_1, 1, 0) == 2),
+   Not(var_5_0))
+Or(And(var_0_1,
+       If(var_0_0, 1, 0) +
+       If(var_1_1, 1, 0) +
+       If(var_0_2, 1, 0) ==
+       1),
+   And(var_0_1,
+       If(var_0_0, 1, 0) +
+       If(var_1_1, 1, 0) +
+       If(var_0_2, 1, 0) ==
+       2),
+   Not(var_0_1))
+Or(And(var_1_1,
+       If(var_1_0, 1, 0) +
+       If(var_0_1, 1, 0) +
+       If(var_2_1, 1, 0) +
+       If(var_1_2, 1, 0) ==
+       1),
+   And(var_1_1,
+       If(var_1_0, 1, 0) +
+       If(var_0_1, 1, 0) +
+       If(var_2_1, 1, 0) +
+       If(var_1_2, 1, 0) ==
+       2),
+   Not(var_1_1))
+Or(And(var_2_1,
+       If(var_2_0, 1, 0) +
+       If(var_1_1, 1, 0) +
+       If(var_3_1, 1, 0) +
+       If(var_2_2, 1, 0) ==
+       1),
+   And(var_2_1,
+       If(var_2_0, 1, 0) +
+       If(var_1_1, 1, 0) +
+       If(var_3_1, 1, 0) +
+       If(var_2_2, 1, 0) ==
+       2),
+   Not(var_2_1))
+Or(And(var_3_1,
+       If(var_3_0, 1, 0) +
+       If(var_2_1, 1, 0) +
+       If(var_4_1, 1, 0) +
+       If(var_3_2, 1, 0) ==
+       1),
+   And(var_3_1,
+       If(var_3_0, 1, 0) +
+       If(var_2_1, 1, 0) +
+       If(var_4_1, 1, 0) +
+       If(var_3_2, 1, 0) ==
+       2),
+   Not(var_3_1))
+Or(And(var_4_1,
+       If(var_4_0, 1, 0) +
+       If(var_3_1, 1, 0) +
+       If(var_5_1, 1, 0) +
+       If(var_4_2, 1, 0) ==
+       1),
+   And(var_4_1,
+       If(var_4_0, 1, 0) +
+       If(var_3_1, 1, 0) +
+       If(var_5_1, 1, 0) +
+       If(var_4_2, 1, 0) ==
+       2),
+   Not(var_4_1))
+Or(And(var_5_1,
+       If(var_5_0, 1, 0) +
+       If(var_4_1, 1, 0) +
+       If(var_5_2, 1, 0) ==
+       1),
+   And(var_5_1,
+       If(var_5_0, 1, 0) +
+       If(var_4_1, 1, 0) +
+       If(var_5_2, 1, 0) ==
+       2),
+   Not(var_5_1))
+Or(And(var_0_2,
+       If(var_0_1, 1, 0) +
+       If(var_1_2, 1, 0) +
+       If(var_0_3, 1, 0) ==
+       1),
+   And(var_0_2,
+       If(var_0_1, 1, 0) +
+       If(var_1_2, 1, 0) +
+       If(var_0_3, 1, 0) ==
+       2),
+   Not(var_0_2))
+Or(And(var_1_2,
+       If(var_1_1, 1, 0) +
+       If(var_0_2, 1, 0) +
+       If(var_2_2, 1, 0) +
+       If(var_1_3, 1, 0) ==
+       1),
+   And(var_1_2,
+       If(var_1_1, 1, 0) +
+       If(var_0_2, 1, 0) +
+       If(var_2_2, 1, 0) +
+       If(var_1_3, 1, 0) ==
+       2),
+   Not(var_1_2))
+Or(And(var_2_2,
+       If(var_2_1, 1, 0) +
+       If(var_1_2, 1, 0) +
+       If(var_3_2, 1, 0) +
+       If(var_2_3, 1, 0) ==
+       1),
+   And(var_2_2,
+       If(var_2_1, 1, 0) +
+       If(var_1_2, 1, 0) +
+       If(var_3_2, 1, 0) +
+       If(var_2_3, 1, 0) ==
+       2),
+   Not(var_2_2))
+Or(And(var_3_2,
+       If(var_3_1, 1, 0) +
+       If(var_2_2, 1, 0) +
+       If(var_4_2, 1, 0) +
+       If(var_3_3, 1, 0) ==
+       1),
+   And(var_3_2,
+       If(var_3_1, 1, 0) +
+       If(var_2_2, 1, 0) +
+       If(var_4_2, 1, 0) +
+       If(var_3_3, 1, 0) ==
+       2),
+   Not(var_3_2))
+Or(And(var_4_2,
+       If(var_4_1, 1, 0) +
+       If(var_3_2, 1, 0) +
+       If(var_5_2, 1, 0) +
+       If(var_4_3, 1, 0) ==
+       1),
+   And(var_4_2,
+       If(var_4_1, 1, 0) +
+       If(var_3_2, 1, 0) +
+       If(var_5_2, 1, 0) +
+       If(var_4_3, 1, 0) ==
+       2),
+   Not(var_4_2))
+Or(And(var_5_2,
+       If(var_5_1, 1, 0) +
+       If(var_4_2, 1, 0) +
+       If(var_5_3, 1, 0) ==
+       1),
+   And(var_5_2,
+       If(var_5_1, 1, 0) +
+       If(var_4_2, 1, 0) +
+       If(var_5_3, 1, 0) ==
+       2),
+   Not(var_5_2))
+Or(And(var_0_3,
+       If(var_0_2, 1, 0) +
+       If(var_1_3, 1, 0) +
+       If(var_0_4, 1, 0) ==
+       1),
+   And(var_0_3,
+       If(var_0_2, 1, 0) +
+       If(var_1_3, 1, 0) +
+       If(var_0_4, 1, 0) ==
+       2),
+   Not(var_0_3))
+Or(And(var_1_3,
+       If(var_1_2, 1, 0) +
+       If(var_0_3, 1, 0) +
+       If(var_2_3, 1, 0) +
+       If(var_1_4, 1, 0) ==
+       1),
+   And(var_1_3,
+       If(var_1_2, 1, 0) +
+       If(var_0_3, 1, 0) +
+       If(var_2_3, 1, 0) +
+       If(var_1_4, 1, 0) ==
+       2),
+   Not(var_1_3))
+Or(And(var_2_3,
+       If(var_2_2, 1, 0) +
+       If(var_1_3, 1, 0) +
+       If(var_3_3, 1, 0) +
+       If(var_2_4, 1, 0) ==
+       1),
+   And(var_2_3,
+       If(var_2_2, 1, 0) +
+       If(var_1_3, 1, 0) +
+       If(var_3_3, 1, 0) +
+       If(var_2_4, 1, 0) ==
+       2),
+   Not(var_2_3))
+Or(And(var_3_3,
+       If(var_3_2, 1, 0) +
+       If(var_2_3, 1, 0) +
+       If(var_4_3, 1, 0) +
+       If(var_3_4, 1, 0) ==
+       1),
+   And(var_3_3,
+       If(var_3_2, 1, 0) +
+       If(var_2_3, 1, 0) +
+       If(var_4_3, 1, 0) +
+       If(var_3_4, 1, 0) ==
+       2),
+   Not(var_3_3))
+Or(And(var_4_3,
+       If(var_4_2, 1, 0) +
+       If(var_3_3, 1, 0) +
+       If(var_5_3, 1, 0) +
+       If(var_4_4, 1, 0) ==
+       1),
+   And(var_4_3,
+       If(var_4_2, 1, 0) +
+       If(var_3_3, 1, 0) +
+       If(var_5_3, 1, 0) +
+       If(var_4_4, 1, 0) ==
+       2),
+   Not(var_4_3))
+Or(And(var_5_3,
+       If(var_5_2, 1, 0) +
+       If(var_4_3, 1, 0) +
+       If(var_5_4, 1, 0) ==
+       1),
+   And(var_5_3,
+       If(var_5_2, 1, 0) +
+       If(var_4_3, 1, 0) +
+       If(var_5_4, 1, 0) ==
+       2),
+   Not(var_5_3))
+Or(And(var_0_4,
+       If(var_0_3, 1, 0) +
+       If(var_1_4, 1, 0) +
+       If(var_0_5, 1, 0) ==
+       1),
+   And(var_0_4,
+       If(var_0_3, 1, 0) +
+       If(var_1_4, 1, 0) +
+       If(var_0_5, 1, 0) ==
+       2),
+   Not(var_0_4))
+Or(And(var_1_4,
+       If(var_1_3, 1, 0) +
+       If(var_0_4, 1, 0) +
+       If(var_2_4, 1, 0) +
+       If(var_1_5, 1, 0) ==
+       1),
+   And(var_1_4,
+       If(var_1_3, 1, 0) +
+       If(var_0_4, 1, 0) +
+       If(var_2_4, 1, 0) +
+       If(var_1_5, 1, 0) ==
+       2),
+   Not(var_1_4))
+Or(And(var_2_4,
+       If(var_2_3, 1, 0) +
+       If(var_1_4, 1, 0) +
+       If(var_3_4, 1, 0) +
+       If(var_2_5, 1, 0) ==
+       1),
+   And(var_2_4,
+       If(var_2_3, 1, 0) +
+       If(var_1_4, 1, 0) +
+       If(var_3_4, 1, 0) +
+       If(var_2_5, 1, 0) ==
+       2),
+   Not(var_2_4))
+Or(And(var_3_4,
+       If(var_3_3, 1, 0) +
+       If(var_2_4, 1, 0) +
+       If(var_4_4, 1, 0) +
+       If(var_3_5, 1, 0) ==
+       1),
+   And(var_3_4,
+       If(var_3_3, 1, 0) +
+       If(var_2_4, 1, 0) +
+       If(var_4_4, 1, 0) +
+       If(var_3_5, 1, 0) ==
+       2),
+   Not(var_3_4))
+Or(And(var_4_4,
+       If(var_4_3, 1, 0) +
+       If(var_3_4, 1, 0) +
+       If(var_5_4, 1, 0) +
+       If(var_4_5, 1, 0) ==
+       1),
+   And(var_4_4,
+       If(var_4_3, 1, 0) +
+       If(var_3_4, 1, 0) +
+       If(var_5_4, 1, 0) +
+       If(var_4_5, 1, 0) ==
+       2),
+   Not(var_4_4))
+Or(And(var_5_4,
+       If(var_5_3, 1, 0) +
+       If(var_4_4, 1, 0) +
+       If(var_5_5, 1, 0) ==
+       1),
+   And(var_5_4,
+       If(var_5_3, 1, 0) +
+       If(var_4_4, 1, 0) +
+       If(var_5_5, 1, 0) ==
+       2),
+   Not(var_5_4))
+Or(And(var_0_5, If(var_0_4, 1, 0) + If(var_1_5, 1, 0) == 1),
+   And(var_0_5, If(var_0_4, 1, 0) + If(var_1_5, 1, 0) == 2),
+   Not(var_0_5))
+Or(And(var_1_5,
+       If(var_1_4, 1, 0) +
+       If(var_0_5, 1, 0) +
+       If(var_2_5, 1, 0) ==
+       1),
+   And(var_1_5,
+       If(var_1_4, 1, 0) +
+       If(var_0_5, 1, 0) +
+       If(var_2_5, 1, 0) ==
+       2),
+   Not(var_1_5))
+Or(And(var_2_5,
+       If(var_2_4, 1, 0) +
+       If(var_1_5, 1, 0) +
+       If(var_3_5, 1, 0) ==
+       1),
+   And(var_2_5,
+       If(var_2_4, 1, 0) +
+       If(var_1_5, 1, 0) +
+       If(var_3_5, 1, 0) ==
+       2),
+   Not(var_2_5))
+Or(And(var_3_5,
+       If(var_3_4, 1, 0) +
+       If(var_2_5, 1, 0) +
+       If(var_4_5, 1, 0) ==
+       1),
+   And(var_3_5,
+       If(var_3_4, 1, 0) +
+       If(var_2_5, 1, 0) +
+       If(var_4_5, 1, 0) ==
+       2),
+   Not(var_3_5))
+Or(And(var_4_5,
+       If(var_4_4, 1, 0) +
+       If(var_3_5, 1, 0) +
+       If(var_5_5, 1, 0) ==
+       1),
+   And(var_4_5,
+       If(var_4_4, 1, 0) +
+       If(var_3_5, 1, 0) +
+       If(var_5_5, 1, 0) ==
+       2),
+   Not(var_4_5))
+Or(And(var_5_5, If(var_5_4, 1, 0) + If(var_4_5, 1, 0) == 1),
+   And(var_5_5, If(var_5_4, 1, 0) + If(var_4_5, 1, 0) == 2),
+   Not(var_5_5))
+If(And(var_0_0, If(var_1_0, 1, 0) + If(var_0_1, 1, 0) == 1),
+   1,
+   0) +
+If(And(var_1_0,
+       If(var_0_0, 1, 0) +
+       If(var_2_0, 1, 0) +
+       If(var_1_1, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_2_0,
+       If(var_1_0, 1, 0) +
+       If(var_3_0, 1, 0) +
+       If(var_2_1, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_3_0,
+       If(var_2_0, 1, 0) +
+       If(var_4_0, 1, 0) +
+       If(var_3_1, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_4_0,
+       If(var_3_0, 1, 0) +
+       If(var_5_0, 1, 0) +
+       If(var_4_1, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_5_0, If(var_4_0, 1, 0) + If(var_5_1, 1, 0) == 1),
+   1,
+   0) +
+If(And(var_0_1,
+       If(var_0_0, 1, 0) +
+       If(var_1_1, 1, 0) +
+       If(var_0_2, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_1_1,
+       If(var_1_0, 1, 0) +
+       If(var_0_1, 1, 0) +
+       If(var_2_1, 1, 0) +
+       If(var_1_2, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_2_1,
+       If(var_2_0, 1, 0) +
+       If(var_1_1, 1, 0) +
+       If(var_3_1, 1, 0) +
+       If(var_2_2, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_3_1,
+       If(var_3_0, 1, 0) +
+       If(var_2_1, 1, 0) +
+       If(var_4_1, 1, 0) +
+       If(var_3_2, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_4_1,
+       If(var_4_0, 1, 0) +
+       If(var_3_1, 1, 0) +
+       If(var_5_1, 1, 0) +
+       If(var_4_2, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_5_1,
+       If(var_5_0, 1, 0) +
+       If(var_4_1, 1, 0) +
+       If(var_5_2, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_0_2,
+       If(var_0_1, 1, 0) +
+       If(var_1_2, 1, 0) +
+       If(var_0_3, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_1_2,
+       If(var_1_1, 1, 0) +
+       If(var_0_2, 1, 0) +
+       If(var_2_2, 1, 0) +
+       If(var_1_3, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_2_2,
+       If(var_2_1, 1, 0) +
+       If(var_1_2, 1, 0) +
+       If(var_3_2, 1, 0) +
+       If(var_2_3, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_3_2,
+       If(var_3_1, 1, 0) +
+       If(var_2_2, 1, 0) +
+       If(var_4_2, 1, 0) +
+       If(var_3_3, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_4_2,
+       If(var_4_1, 1, 0) +
+       If(var_3_2, 1, 0) +
+       If(var_5_2, 1, 0) +
+       If(var_4_3, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_5_2,
+       If(var_5_1, 1, 0) +
+       If(var_4_2, 1, 0) +
+       If(var_5_3, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_0_3,
+       If(var_0_2, 1, 0) +
+       If(var_1_3, 1, 0) +
+       If(var_0_4, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_1_3,
+       If(var_1_2, 1, 0) +
+       If(var_0_3, 1, 0) +
+       If(var_2_3, 1, 0) +
+       If(var_1_4, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_2_3,
+       If(var_2_2, 1, 0) +
+       If(var_1_3, 1, 0) +
+       If(var_3_3, 1, 0) +
+       If(var_2_4, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_3_3,
+       If(var_3_2, 1, 0) +
+       If(var_2_3, 1, 0) +
+       If(var_4_3, 1, 0) +
+       If(var_3_4, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_4_3,
+       If(var_4_2, 1, 0) +
+       If(var_3_3, 1, 0) +
+       If(var_5_3, 1, 0) +
+       If(var_4_4, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_5_3,
+       If(var_5_2, 1, 0) +
+       If(var_4_3, 1, 0) +
+       If(var_5_4, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_0_4,
+       If(var_0_3, 1, 0) +
+       If(var_1_4, 1, 0) +
+       If(var_0_5, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_1_4,
+       If(var_1_3, 1, 0) +
+       If(var_0_4, 1, 0) +
+       If(var_2_4, 1, 0) +
+       If(var_1_5, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_2_4,
+       If(var_2_3, 1, 0) +
+       If(var_1_4, 1, 0) +
+       If(var_3_4, 1, 0) +
+       If(var_2_5, 1, 0) ==
+       1),
+   1,
+   0) +
+If(And(var_3_4,
+       If(var_3_3, 1, 0) +
+       If(var_2_4, 1, 0) +
+       If(var_4_4, 1, 0) +
+       If(var_3_5, 1, 0) ==
+...
+No solution exists
